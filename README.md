@@ -8,7 +8,7 @@ PySMI 是一个用于处理SNMP协议的信息库Mib文件的包，包含文件�
 
 ## 目录结构
 
-\---pysmi
+---pysmi
     |   compat.py ：utf-8编解码类
     |   compiler.py：Mib编译器，会初始化reader读取文件，searcher搜索.mib文件存入缓存，并且用parser lex编译成语法树，交给codegen模块生成目标代码。
     |   config.py：是否严格模式的配置
